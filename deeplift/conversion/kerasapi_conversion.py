@@ -381,7 +381,7 @@ def convert_model_from_saved_files(
 
     #add in the weights of the layer to the layer config
     for layer_config in layer_configs:
-         
+        print("SorTor")
         layer_name = layer_config["config"]["name"]
         assert layer_name in model_weights,\
             ("Layer "+layer_name+" is in the layer names but not in the "
